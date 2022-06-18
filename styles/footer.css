@@ -4,3 +4,9 @@ footer .info {
     font-size: 12px;
     font-weight: bold;
 }
+
+@media (min-width: 768px) {
+    footer {
+        margin-top: 50px;
+    }
+}

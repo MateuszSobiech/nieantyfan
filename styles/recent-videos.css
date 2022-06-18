@@ -2,5 +2,12 @@
     margin-bottom: 30px;
 }
 
+#recent-videos .d-none-sm {
+    display: none;
+}
+
 @media (min-width: 768px) {
+    #recent-videos .d-none-sm {
+        display: block;
+    }
 }

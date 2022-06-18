@@ -5,15 +5,30 @@
     flex-direction: column;
 }
 
-.photo {
+#about-me .quote-container {
+    text-align: center;
+}
+
+#about-me .photo {
     width: 80%;
     border-radius: 50%;
 }
 
 #about-me .quote {
-    width: 70%;
     margin: 1rem 0;
 }
 
 @media (min-width: 768px) {
+    #about-me {
+        flex-direction: row;
+    }
+
+    #about-me .quote-container {
+        text-align: left;
+    }
+
+    #about-me .photo {
+        width: 20%;
+        margin: 0 200px;
+    }
 }

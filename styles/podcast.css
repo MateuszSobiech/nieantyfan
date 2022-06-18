@@ -18,4 +18,16 @@
 }
 
 @media (min-width: 768px) {
+    #podcast {
+        margin-top: 100px;
+    }
+
+    #podcast img {
+        width: 90% !important;
+    }
+
+    #podcast .info {
+        width: 30%;
+        margin: auto;
+    }
 }
