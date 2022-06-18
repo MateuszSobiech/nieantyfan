@@ -1,0 +1,19 @@
+#about-me {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo {
+    width: 80%;
+    border-radius: 50%;
+}
+
+#about-me .quote {
+    width: 70%;
+    margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+}

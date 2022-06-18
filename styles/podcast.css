@@ -1,0 +1,21 @@
+#podcast {
+    margin-bottom: 10px;
+}
+
+#podcast .info {
+    padding: 20px;
+}
+
+#podcast .apple {
+    color: #8a30c5;
+}
+
+#podcast .btn-podcast {
+    margin-top: 10px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #bd7dd8;
+}
+
+@media (min-width: 768px) {
+}
