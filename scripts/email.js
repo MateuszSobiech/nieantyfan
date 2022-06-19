@@ -19,7 +19,7 @@ const sendEmail = () => {
                 submitBtn.disabled = false;
 
                 const toastEl = document.querySelector('.toast');
-                const toast = new bootstrap.Toast(toastEl, { delay: 2500 });
+                const toast = new bootstrap.Toast(toastEl, { delay: 3000 });
                 toast.show();
             }
         },
@@ -27,7 +27,7 @@ const sendEmail = () => {
             submitBtn.disabled = false;
 
             console.log('FAILED...', error);
-            alert('Wystąpił błąd prosimy o ręczne przesłanie maila na adres: xxx@gmail.com');
+            alert('Wystąpił błąd prosimy o ręczne przesłanie maila na adres: nieantyfan@gmail.com');
         }
     );
 };
