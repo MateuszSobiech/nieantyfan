@@ -1,10 +1,10 @@
+#carousel #carousel-interval {
+    height: 250px;
+}
+
 @media (min-width: 768px) {
     #carousel #carousel-interval .carousel-item img {
         width: 25% !important;
         margin: auto;
-    }
-
-    #carousel #carousel-interval {
-        height: 250px;
     }
 }

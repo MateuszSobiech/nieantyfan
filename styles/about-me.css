@@ -23,6 +23,10 @@
         flex-direction: row;
     }
 
+    #about-me .info {
+        width: 40%;
+    }
+
     #about-me .quote-container {
         text-align: left;
     }

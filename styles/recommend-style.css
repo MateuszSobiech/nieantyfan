@@ -1,0 +1,23 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css');
+
+body {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+#pills-tab button {
+    clip-path: polygon(18px 0%, 100% 0%, calc(100% - 18px) 100%, 0% 100%);
+    padding: 10px 50px;
+    margin: 10px 0;
+    background-color: #272727;
+    text-transform: uppercase;
+    color: orange;
+}
+
+.nav-pills .nav-link.active {
+    color: white !important;
+}
+
+.info-scroll {
+    max-height: 330px;
+    overflow-y: scroll;
+}

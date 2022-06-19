@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Nieantyfan</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+        <link rel="icon" href="https://i2.wp.com/nieantyfan.com/wp-content/uploads/2018/10/cropped-Logo-1024x1024.png?fit=32%2C32&amp;ssl=1" sizes="32x32" />
         <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -39,7 +39,7 @@
 
         <div id="hero" class="hero-img hero-position"></div>
 
-        <div id="menu" class="hero-buttons">
+        <div id="menu">
             <a href="#about-me" class="text-decoration-none">
                 <button type="button" class="btn btn-dark">O mnie</button>
             </a>
@@ -56,11 +56,11 @@
                 <button type="button" class="btn btn-dark">Współpraca</button>
             </a>
 
-            <a href="#" class="text-decoration-none" target="_blank">
+            <a href="/views/recommend.html" class="text-decoration-none" target="_blank">
                 <button type="button" class="btn btn-dark">Polecajki <i class="bi bi-box-arrow-up-right"></i></button>
             </a>
 
-            <a href="#" class="text-decoration-none" target="_blank">
+            <a href="/views/faq.html" class="text-decoration-none" target="_blank">
                 <button type="button" class="btn btn-dark">FAQ <i class="bi bi-box-arrow-up-right"></i></button>
             </a>
         </div>
@@ -92,77 +92,7 @@
         <div id="recent-videos">
             <h2 class="text-center text-uppercase"><i>Najnowsze filmy</i></h2>
             <div class="videos container-fluid">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <iframe
-                            width="100%"
-                            height="300"
-                            src="https://www.youtube.com/embed/XI_JvEP6hYg"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
-                        ></iframe>
-                    </div>
-                    <div class="col-lg-4">
-                        <iframe
-                            width="100%"
-                            height="300"
-                            src="https://www.youtube.com/embed/v6uj77nH_M0"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
-                        ></iframe>
-                    </div>
-                    <div class="col-lg-4">
-                        <iframe
-                            width="100%"
-                            height="300"
-                            src="https://www.youtube.com/embed/flwDSwX1wmk"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
-                        ></iframe>
-                    </div>
-
-                    <div class="col-lg-4 d-none-sm">
-                        <iframe
-                            width="100%"
-                            height="300"
-                            src="https://www.youtube.com/embed/flwDSwX1wmk"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
-                        ></iframe>
-                    </div>
-
-                    <div class="col-lg-4 d-none-sm">
-                        <iframe
-                            width="100%"
-                            height="300"
-                            src="https://www.youtube.com/embed/flwDSwX1wmk"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
-                        ></iframe>
-                    </div>
-
-                    <div class="col-lg-4 d-none-sm">
-                        <iframe
-                            width="100%"
-                            height="300"
-                            src="https://www.youtube.com/embed/flwDSwX1wmk"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
-                        ></iframe>
-                    </div>
-                </div>
+                <div id="videos-row" class="row"></div>
             </div>
         </div>
 
@@ -219,8 +149,8 @@
                 </div>
                 <div class="mb-3">
                     <textarea class="form-control" id="message" rows="18" placeholder="Treść" required>
-Wiadomość testowa, obecnie zostanie wysłana na mój adres mailowy, później do podmiany.</textarea
-                    >
+Wiadomość testowa, obecnie zostanie wysłana na mój adres mailowy, później do podmiany.
+                    </textarea>
                 </div>
 
                 <div class="text-center">
@@ -305,7 +235,7 @@ Wiadomość testowa, obecnie zostanie wysłana na mój adres mailowy, później 
                 </a>
             </div>
 
-            <div class="info">
+            <div class="info text-center">
                 <a href="#" class="link-dark text-decoration-none">Polityka prywatności</a>
                 <p>© 2022 Bartłomiej Zawisza, Nieantyfan. All rights reserved</p>
             </div>
@@ -320,3 +250,5 @@ Wiadomość testowa, obecnie zostanie wysłana na mój adres mailowy, później 
         <script src="https://skrypt-cookies.pl/id/2825b5c56f46452e.js"></script>
     </body>
 </html>
+
+<!-- zakladke polecajki i FAQ + polityka prywatnosci -->
